@@ -8,11 +8,23 @@ body{
     height: 100vh;
     margin: 0;
     padding: 0;
+    line-height: 30px;
 }
 
 /* React */
 #root{
     height: 100%;
+}
+
+:root{
+    --white-color: #FFFFFF;
+    --black-color: #1A1A1A;
+    --red-color: #EA4913;
+    --orange-color: #FFB225;
+    --yellow-color: #FCCB05;
+    --green-color: #00833F;
+    --blue-color: #245FC5;
+    --silver-color: #CCC8C6;
 }
 
 /* Command */
@@ -40,8 +52,8 @@ a{
 .header-website{
     grid-area: header;
     position: relative;
-    background-color: black;
-    color: white;
+    background-color: var(--black-color);
+    color: var(--white-color);
 }
 
 /* Main */
@@ -55,7 +67,7 @@ a{
 .footer-website{
     grid-area: footer;
     position: relative;
-    background-color: white;
-    color: black;
+    background-color: var(--white-color);
+    color: var(--black-color);
 }
 
