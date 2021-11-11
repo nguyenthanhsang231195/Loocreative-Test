@@ -1,10 +1,13 @@
 import React from 'react';
-import {BrowserRouter} from 'react-router-dom';
+import {BrowserRouter, Route} from 'react-router-dom';
 import './App.css';
 
 // Components
 import Navbar from './Components/Navbar/Navbar';
 import Dropdown from './Components/Dropdown/Dropdown';
+
+// Screens
+import HomeScreen from './Screens/HomeScreen/HomeScreen';
 
 function App() {
     return (
@@ -16,7 +19,8 @@ function App() {
         </header> 
 
         <main className="main-website">
-            Main
+            {/* HomeScreen */}
+            <Route path="/" component={HomeScreen} exact />
         </main>
 
         <footer className="footer-website">

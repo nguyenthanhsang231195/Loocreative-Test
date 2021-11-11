@@ -1,0 +1,250 @@
+.container-banner{
+    position: relative;
+    width: 100%;
+    z-index: 1;
+    line-height: 0px !important;
+    
+}
+
+.container-banner img{
+    width: 100%;
+    z-index: 1;
+}
+
+.span-what-happened{
+    position: absolute;
+    color: var(--white-color);
+    font-size: 50px;
+    font-weight: 800;
+    line-height: 1.75;
+    z-index: 2;
+    top: 20%;
+    left: 10%;
+}
+
+.span-text{
+    position: absolute;
+    color: var(--white-color);
+    font-size: 20px;
+    line-height: 1.75;
+    z-index: 2;
+    top: 40%;
+    left: 10%;
+    overflow: auto;
+    width: 667px;
+    height: 125px;
+}
+
+.span-best-product{
+    position: absolute;
+    color: var(--red-color);
+    font-size: 50px;
+    font-weight: bold;
+    line-height: 1.2;
+    letter-spacing: 5px;
+    z-index: 2;
+    top: 6%;
+    left: 40%;
+}
+
+.span-best-text{
+    position: absolute;
+    color: var(--red-color);
+    font-size: 20px;
+    line-height: 1.6;
+    z-index: 2;
+    top: 16%;
+    left: 35%;
+    width: 665px;
+    height: 70px;
+    overflow: auto;
+    text-align: center;
+}
+
+.image-banner{
+    position: absolute;
+    top: 34%;
+    left: 3%;
+}
+
+.image-banner ul{
+    position: relative;
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 0rem;
+    justify-content: center;
+    align-items: center;
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+.image-banner ul li{
+    flex: 0 1 28%;
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+.box-image-banner{
+    position: relative;
+    display: flex;
+    width: 100%;
+}
+
+.image-box-one{
+    position: relative;
+    width: 100%;
+}
+
+.image-box-two{
+    position: absolute;
+    top: -10%;
+    left: -1%;
+    max-width: 88px;
+}
+
+.detail-box{
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    height: 18%;
+    background-color: var(--white-color);
+    z-index: 50;
+    bottom: -10%;
+    left: 10%;
+}
+
+.detail-box h3{
+    position: relative;
+    font-size: 20px;
+    font-weight: 800;
+    line-height: 1.25;
+    color: var(--black-color);
+    margin-left: 3%;
+}
+
+.detail-box span{
+    margin-right: 3%;
+}
+
+.detail-box span img{
+    position: relative;
+    max-width: 60px;
+}
+
+@media (max-width: 1200px){
+    .span-what-happened{
+        font-size: 44px;
+    }
+    .span-text{
+        font-size: 18px;
+        width: 45%;
+        height: auto;
+    }
+    .span-best-product{
+        font-size: 44px;
+        top: 5%;
+        left: 35%;
+    }
+    .span-best-text{
+        font-size: 18px;
+        top: 18%;
+        left: 30%;
+        width: 60%;
+        height: auto;
+    }
+    .image-banner ul li{
+        flex: 0 1 30%;
+    }
+    .image-box-two{
+        left: 0%;
+        max-width: 77px;
+    }
+    .detail-box{
+        height: 20%;
+    }
+    .detail-box h3{
+        font-size: 18px;
+    }
+    .detail-box span img{
+        max-width: 55px;
+    }
+}
+
+@media (max-width: 992px){
+    .span-what-happened{
+        top: 15%;
+        font-size: 40px;
+    }
+    .span-text{
+        font-size: 16px;
+        width: 55%;
+        height: auto;
+    }
+    .span-best-product{
+        font-size: 40px;
+        top: 4%;
+        left: 35%;
+    }
+    .span-best-text{
+        font-size: 18px;
+        top: 20%;
+        left: 30%;
+        width: 65%;
+        height: auto;
+    }
+    .image-banner ul li{
+        flex: 0 1 32%;
+    }
+    .image-box-two{
+        left: 0%;
+        max-width: 74px;
+    }
+    .detail-box{
+        height: 20%;
+    }
+    .detail-box h3{
+        font-size: 16px;
+    }
+    .detail-box span img{
+        max-width: 50px;
+    }
+}
+
+@media (max-width: 768px){
+    .span-what-happened{
+        top: 7%;
+        font-size: 38px;
+    }
+    .span-text{
+        font-size: 14px;
+        width: 70%;
+        height: auto;
+    }
+    .span-best-product{
+        font-size: 38px;
+        top: 4%;
+        left: 30%;
+        letter-spacing: 1px;
+    }
+    .span-best-text{
+       display: none;
+    }
+    .image-banner ul li{
+        flex: 0 1 32%;
+    }
+    .image-box-two{
+        left: -1%;
+        max-width: 71px;
+    }
+    .detail-box{
+        height: 20%;
+    }
+    .detail-box h3{
+        font-size: 14px;
+    }
+    .detail-box span img{
+        max-width: 45px;
+    }
+}

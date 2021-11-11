@@ -32,7 +32,7 @@
 }
 
 .navbar-active{
-    position: fixed;
+    position: absolute;
     display: grid;
     grid-template-columns: repeat(5, minmax(0, 1fr));
     justify-content: center;
@@ -51,9 +51,9 @@
     align-items: center;
     text-align: center;
     background-color: var(--black-color);
-    right: -100%;
+    right: -150%;
     animation-duration: 700;
-    opacity: 0;
+    z-index: 10;
 }
 
 .navbar-active ul, .navbar-close ul{

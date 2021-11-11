@@ -26,8 +26,8 @@ export default function Dropdown() {
 
         <div className=
         {sidebar 
-        ? "navbar-active" 
-        : "navbar-close"}>
+        ? "navbar-close"
+        : "navbar-active"}>
             <ul>
                 <Link to="/introduction" >
                     <li>

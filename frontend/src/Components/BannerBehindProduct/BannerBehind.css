@@ -1,0 +1,176 @@
+.banner-behind-product{
+    position: relative;
+    width: 100%;
+}
+
+.behind-one{
+    position: relative;
+    width: 100%;
+    height: 956px;
+    background-color: var(--blue-color);
+}
+
+
+/* Main */
+.window-main{
+    position: absolute;
+    top: 45%;
+    left: 20%;
+    width: 65%;
+    z-index: 10;
+}
+
+#image-window{
+    position: relative;
+    width: 100%;
+}
+
+#text-large-window{
+    position: absolute;
+    top: 7%;
+    left: 55%;
+    font-size: 25px;
+    font-weight: 800;
+    line-height: 2.4;
+    color: var(--black-color);
+    z-index: 11;
+    width: 40%;
+    height: auto;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+#text-window{
+    position: absolute;
+    top: 20%;
+    left: 55%;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 1.88;
+    color: var(--black-color);
+    z-index: 11;
+    width: 40%;
+    max-height: 45%;
+    overflow: hidden;
+}
+
+#button-window{
+    position: absolute;
+    bottom: 10%;
+    left: 55%;
+    background-color: var(--white-color);
+    color: var(--black-color);
+    font-size: 23px;
+    font-weight: 800;
+    line-height: 1.09;
+    max-width: 40%;
+}
+
+/* End Main */
+#image-1{
+    position: absolute;
+    top: 24%;
+    left: 12%;
+    width: 10%;
+    z-index: 1;
+}
+
+#image-2{
+    position: absolute;
+    top: 7%;
+    right: 13%;
+    width: 9%;
+    z-index: 3;
+}
+
+#image-3{
+    position: absolute;
+    top: 9%;
+    right: 6%;
+    width: 10%;
+    z-index: 4;
+}
+
+#image-4{
+    position: absolute;
+    top: 30%;
+    right: -5%;
+    width: 15%;
+}
+
+#image-5{
+    position: absolute;
+    top: 64%;
+    right: 0%;
+    width: 16%;
+}
+
+#image-6{
+    position: absolute;
+    top: 46%;
+    left: 0%;
+    width: 12%;
+}
+
+#image-7{
+    position: absolute;
+    top: 56%;
+    left: 12%;
+    width: 11%;
+}
+
+@media (max-width: 1200px){
+    .behind-one{
+        height: 764px;
+    }
+    #text-large-window{
+        top: 6%;
+        font-size: 23px;
+        line-height: 2.3;
+    }
+    #text-window{
+        font-size: 14px;
+        line-height: 1.7;
+    }
+    #button-window{
+        font-size: 21px;
+    }
+}
+
+@media (max-width: 992px){
+    .behind-one{
+        height: 612px;
+    }
+    #text-large-window{
+        top: 5%;
+        font-size: 21px;
+        line-height: 2.2;
+    }
+    #text-window{
+        font-size: 12px;
+        line-height: 1.6;
+    }
+    #button-window{
+        font-size: 19px;
+    }
+}
+
+@media (max-width: 768px){
+    .behind-one{
+        height: 490px;
+    }
+    #text-large-window{
+        top: 4%;
+        font-size: 20px;
+        line-height: 2.1;
+    }
+    #text-window{
+        font-size: 11px;
+        line-height: 1.5;
+    }
+    #button-window{
+        font-size: 17px;
+    }
+}       
+
