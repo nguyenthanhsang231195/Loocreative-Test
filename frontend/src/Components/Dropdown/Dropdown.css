@@ -32,15 +32,15 @@
 }
 
 .navbar-active{
-    position: absolute;
+    position: fixed;
     display: grid;
     grid-template-columns: repeat(5, minmax(0, 1fr));
     justify-content: center;
     align-items: center;
-    text-align: center;
     background-color: var(--black-color);
     right: 0%;
-    animation-duration: 300;
+    transition: all 0.5s ease;
+    z-index: 100;
 }
 
 .navbar-close{
@@ -49,28 +49,30 @@
     grid-template-columns: repeat(5, minmax(0, 1fr));
     justify-content: center;
     align-items: center;
-    text-align: center;
     background-color: var(--black-color);
-    right: -150%;
-    animation-duration: 700;
-    z-index: 10;
+    right: -100%;
+    transition: all 0.5s ease;
+    opacity: 0;
+    z-index: 100;
 }
 
 .navbar-active ul, .navbar-close ul{
-    width: 540px;
-    justify-content: center;
-    align-items: center;
+    width: 100vw;
+    margin: 0;
+    padding: 0;
 }
 
 .navbar-active ul li, .navbar-close ul li{
     width: 100%;
-    text-align: center;
     text-decoration: underline;
+    margin: 0;
+    padding: 0;
 }
 
 .text-dropdown{
     text-transform: uppercase;
     color: var(--white-color);
+    text-align: center;
 }
 
 @media (max-width: 1200px){

@@ -5,9 +5,12 @@ import './App.css';
 // Components
 import Navbar from './Components/Navbar/Navbar';
 import Dropdown from './Components/Dropdown/Dropdown';
+import Footer from './Components/Footer/Footer';
 
 // Screens
 import HomeScreen from './Screens/HomeScreen/HomeScreen';
+
+
 
 function App() {
     return (
@@ -24,7 +27,7 @@ function App() {
         </main>
 
         <footer className="footer-website">
-            Footer
+            <Footer />
         </footer>
     </div>
 </BrowserRouter>

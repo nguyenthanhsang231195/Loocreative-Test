@@ -25,38 +25,46 @@ export default function Dropdown() {
         </span>
 
         <div className=
-        {sidebar 
-        ? "navbar-close"
-        : "navbar-active"}>
+            {sidebar 
+            ? "navbar-active" 
+            : "navbar-close"}>
             <ul>
-                <Link to="/introduction" >
-                    <li>
+                <li>
+                    <Link to="/" >
                         <h2 className="text-dropdown"> Introduction </h2> 
-                    </li>
-                </Link>
-                <Link to="/solution">
-                    <li>    
-                        <h2 className="text-dropdown"> Solution </h2>
-                    </li>
-                </Link>
-                <Link to="/rate">
-                    <li>
+                    </Link>
+                </li>
+            
+            
+                <li>    
+                    <Link to="/">
+                    <   h2 className="text-dropdown"> Solution </h2>
+                    </Link>
+                </li>
+            
+            
+                <li>
+                    <Link to="/">
                         <h2 className="text-dropdown"> Rate plan </h2>
-                    </li>
-                </Link>
-                <Link to="/login">
-                    <li>
+                    </Link>
+                </li>
+            
+            
+                <li>
+                    <Link to="/">
                         <h2 className="text-dropdown"> Login </h2> 
-                    </li>
-                </Link>
-                <Link to="/apply">
-                    <li>
-                        <h2 className="text-dropdown"> Apply for free use </h2>     
-                    </li>
-                </Link>
+                    </Link>
+                </li>
+            
+            
+                <li>
+                    <Link to="/">
+                        <h2 className="text-dropdown"> Apply for free use </h2>    
+                    </Link> 
+                </li>
             </ul>
         </div>
-    </div>  
+    </div>
 </div>
     )
 }

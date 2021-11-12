@@ -1,10 +1,11 @@
 import React from 'react';
-import Banner from '../../Components/BannerHomeScreen/Banner';
-import BannerBehind from '../../Components/BannerBehindProduct/BannerBehind';
+import './HomeScreen.css';
 import ProductHome from '../../Components/ProductHomeScreen/ProductHome';
 import productData from '../../Data/data';
-
-import './HomeScreen.css';
+import Banner from '../../Components/BannerHomeScreen/Banner';
+import BannerBehind from '../../Components/BannerBehindProduct/BannerBehind';
+import BannerBehindBanner from '../../Components/BannerBehindBanner/BannerBehindBanner';
+import BannerUpFooter from '../../Components/BannerUpFooter/BannerUpFooter';
 
 export default function HomeScreen() {
     return (
@@ -24,6 +25,8 @@ export default function HomeScreen() {
     </div>
 
     <BannerBehind />
+    <BannerBehindBanner />
+    <BannerUpFooter />
 </div>
     )
 }

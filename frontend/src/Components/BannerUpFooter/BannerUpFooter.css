@@ -1,0 +1,102 @@
+.banner-up-footer{
+    position: relative;
+    width: 100%;
+    height: 1340px;
+    color: var(--black-color);
+    background-color: var(--white-color);
+}
+
+#banner-up-footer-image-1{
+    position: absolute;
+    width: 65%;
+    top: 23%;
+    left: 16%;
+    z-index: 2;
+}
+
+#banner-up-footer-image-2{
+    position: absolute;
+    width: 21%;
+    bottom: 0%;
+    left: 17%;
+    z-index: 2;
+}
+
+#banner-up-footer-image-3{
+    position: absolute;
+    width: 4%;
+    bottom: 8%;
+    right: 33%;
+}
+
+#banner-up-footer-image-4{
+    position: absolute;
+    width: 6%;
+    bottom: 12%;
+    left: 12%;
+    z-index: 0;
+}
+
+#banner-up-footer-image-5{
+    position: absolute;
+    width: 25%;
+    top: 12%;
+    left: -14%;
+}
+
+#banner-up-footer-image-6{
+    position: absolute;
+    width: 6%;
+    top: 0%;
+    left: 10%;
+}
+
+#banner-up-footer-image-7{
+    position: absolute;
+    width: 6%;
+    top: 9%;
+    right: 16%;
+    z-index: 2;
+}
+
+#banner-up-footer-image-8{
+    position: absolute;
+    width: 7%;
+    top: 2%;
+    right: 11%;
+    z-index: 1;
+}
+
+#banner-up-footer-image-9{
+    position: absolute;
+    width: 30%;
+    bottom: 5%;
+    right: -9%;
+    z-index: 1;
+}
+
+#banner-up-footer-image-10{
+    position: absolute;
+    width: 20%;
+    bottom: 36%;
+    right: -10%;
+    z-index: 0;
+}
+
+@media (max-width: 1200px){
+    .banner-up-footer{
+        height: 871px;
+    }
+}
+
+@media (max-width: 992px){
+    .banner-up-footer{
+        height: 697px;
+    }
+}
+
+@media (max-width: 768px){
+    .banner-up-footer{
+        height: 556px;
+    }
+}    

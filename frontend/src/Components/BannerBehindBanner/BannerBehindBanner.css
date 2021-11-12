@@ -1,0 +1,284 @@
+.banner-behind-banner{
+    position: relative;
+    width: 100%;
+}
+
+.behind-two{
+    position: relative;
+    width: 100%;
+    height: 1143px;
+    background-color: var(--yellow-color);
+    opacity: 0.8;
+}
+
+/* Dice */
+.dice-3{
+    position: absolute;
+    width: 9%;
+    top: 17%;
+    right: 5%;
+}
+
+.dice-5{
+    position: absolute;
+    width: 7%;
+    top: 4%;
+    right: 5%;
+}
+
+/* Object */
+.object-03{
+    position: absolute;
+    width: 32%;
+    right: -1%;
+    bottom: -8%; 
+}
+
+.object-05{
+    position: absolute;
+    width: 25%;
+    left: -16%;
+    bottom: -9%; 
+}
+
+/* Control-text */
+.control-text-banner-behind-banner{
+    position: absolute;
+    top: 5%;
+    width: 100%;
+    color: var(--black-color);
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.control-text-banner-behind-banner h2{
+    position: relative;
+    font-size: 45px;
+    font-weight: bold;
+    line-height: 1.33;
+    letter-spacing: 4.5px;
+}
+
+.control-text-banner-behind-banner p{
+    position: relative;
+    width: 60%;
+    left: 20%;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 1.88;
+}
+
+.control-text-banner-behind-banner button{
+    position: relative;
+    width: 200px;
+    height: 60px;
+    border: 3px solid #020001;
+    background-color: #fcd32a;
+    font-weight: 800;
+    font-size: 23;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+
+.control-text-banner-behind-banner button:hover{
+    cursor: pointer;
+}
+/* End Control */
+
+
+/* Main */
+.new-main{
+    position: absolute;
+    display: flex;
+    bottom: 10%;
+    width: 100%;
+    height: 480px;
+    z-index: 10;
+    gap: 0 !important;
+}
+
+#image-new-1{
+    position: relative;
+    width: 20%;
+    background-color: #ff5500;
+}
+
+#arrow-text{
+    position: absolute;
+    top: 15%;
+    left: 30%;
+    width: 40%;
+    text-transform: uppercase;
+    font-size: 55px;
+    font-weight: 800;
+    line-height: 1.04;
+    color: var(--black-color);
+}
+
+#arrow-image{
+   position: absolute;
+   bottom: 15%;
+   left: 30%;
+   width: 40%;
+}
+
+#image-new-2{
+    position: relative;
+    width: 20%;
+    background-color: var(--black-color);
+}
+
+#image-new-3{
+    position: relative;
+    width: 20%;
+    background-color: var(--black-color);
+}
+
+#image-new-4{
+    position: relative;
+    width: 20%;
+    background-color: var(--black-color);
+}
+
+#image-new-5{
+    position: relative;
+    width: 20%;
+    background-color: var(--black-color);
+}
+
+.new-text{
+    position: absolute;
+    top: -4%;
+    width: 100%;
+    height: 15%;
+    border: 3px solid var(--black-color);
+    background-color: #111111;
+    color: var(--white-color);
+    font-size: 30px;
+    font-weight: 800;
+    line-height: 1.67;
+    text-align: center;
+}
+
+.new-image{
+    position: absolute;
+    top: 15%;
+    width: 100%;
+    height: 85%;
+}
+
+#new-text-4{
+    background-color: #ff5500;
+}
+
+/* End Main*/
+
+@media (max-width: 1200px){
+    .behind-two{
+        height: 800px;
+    }
+    .new-main{
+        height: 360px;
+    }
+    .control-text-banner-behind-banner{
+        top: 4%;
+    }
+    .control-text-banner-behind-banner h2{
+        font-size: 40px;
+        letter-spacing: 4.0px;
+    }
+    .control-text-banner-behind-banner p{
+        font-size: 14px;
+        line-height: 1.7;
+    }
+    .control-text-banner-behind-banner button{
+        width: 180px;
+        height: 50px;
+        font-size: 21;
+    }
+    #arrow-text{
+        top: 10%;
+        left: 25%;
+        font-size: 50px;  
+    }
+    .new-text{
+        top: -5%;
+        font-size: 26px;
+        line-height: 1.5;
+    }
+}
+
+@media (max-width: 992px){
+    .behind-two{
+        height: 560px;
+    }
+    .new-main{
+        height: 270px;
+    }
+    .control-text-banner-behind-banner{
+        top: 2%;
+    } 
+    .control-text-banner-behind-banner h2{
+        font-size: 35px;
+        letter-spacing: 3.5px;
+    }
+    .control-text-banner-behind-banner p{
+        font-size: 12px;
+        line-height: 1.6;
+    }
+    .control-text-banner-behind-banner button{
+        width: 160px;
+        height: 40px;
+        font-size: 19;
+    }
+    #arrow-text{
+        top: 5%;
+        left: 20%;
+        font-size: 45px;  
+    }
+    .new-text{
+        top: -6%;
+        font-size: 24px;
+        line-height: 1.4;
+    }
+}
+
+@media (max-width: 768px){
+    .behind-two{
+        height: 392px;
+    }
+    .new-main{
+        height: 202px;
+    }
+    .control-text-banner-behind-banner{
+        top: 0%;
+    }
+    .control-text-banner-behind-banner h2{
+        font-size: 30px;
+        letter-spacing: 3.0px;
+        margin: 0 !important;
+        padding: 0 !important;
+    }
+    .control-text-banner-behind-banner p{
+        font-size: 10px;
+        line-height: 1.5;
+    }
+    .control-text-banner-behind-banner button{
+        width: 150px;
+        height: 35px;
+        font-size: 17;
+    }
+    #arrow-text{
+        top: 0%;
+        left: 15%;
+        font-size: 40px;  
+    }
+    .new-text{
+        top: -7%;
+        font-size: 22px;
+        line-height: 1.3;
+    }
+}    

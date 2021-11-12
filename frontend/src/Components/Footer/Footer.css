@@ -1,0 +1,147 @@
+.footer{
+    position: relative;
+    width: 100%;
+    max-height: 464px;
+}
+
+.infor-col{
+    position: relative;
+    display: flex;
+    width: 100%;
+    padding: 5% 3% 0% 3%;
+    justify-content: space-between;
+    align-items: center;
+    text-align: left;
+}
+
+/* Left */
+.col-left{
+    width: 30%;
+    margin-left: 2%;
+}
+
+.col-left h3{
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 2.14;
+}
+
+.col-left span{
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 2.14
+}
+
+/* Right */
+.col-right{
+    position: relative;
+    width: 60%;
+    margin-right: 2%;
+}
+
+.col-right ul{
+    position: relative;
+    display: inline-flex;
+    width : 100%;
+}
+
+.col-right ul li{
+    flex: 1 1 22%
+}
+
+.col-right ul li h2{
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 2.86;
+}
+
+.col-right ul li span{
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 2.21;
+}
+/* website */
+.website-infor{
+    position: relative;
+    width: 100%;
+    margin-left: 10%;
+}
+
+.website-infor span{
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 1.7;
+    color: #a9a9a9;
+}
+
+@media (max-width: 1200px){
+   /* Left */
+    .col-left h3{
+        font-size: 12px;
+        line-height: 2.0;
+    }
+    .col-left span{
+        font-size: 12px;
+        line-height: 2.0;
+    }
+    /* Right */
+    .col-right ul li{
+        flex: 1 1 23%
+    }
+    .col-right ul li h2{
+        font-size: 12px;
+        line-height: 2.7;
+    }
+    .col-right ul li span{
+        font-size: 12px;
+        line-height: 2.1;
+    }
+}
+
+@media (max-width: 992px){
+    /* Left */
+    .col-left h3{
+        font-size: 10px;
+        line-height: 1.9;
+    }
+    .col-left span{
+        font-size: 10px;
+        line-height: 1.9;
+    }
+    /* Right */
+    .col-right ul li{
+        flex: 1 1 24%
+    }
+    .col-right ul li h2{
+        font-size: 10px;
+        line-height: 2.6;
+    }
+    .col-right ul li span{
+        font-size: 10px;
+        line-height: 2.0;
+    }
+}
+
+@media (max-width: 768px){
+    /* Left */
+    .col-left h3{
+        font-size: 9px;
+        line-height: 1.9;
+    }
+    .col-left span{
+        font-size: 9px;
+        line-height: 1.9;
+    }
+    /* Right */
+    .col-right ul li{
+        flex: 1 1 25%
+    }
+    .col-right ul li h2{
+        font-size: 9px;
+        line-height: 2.5;
+    }
+    .col-right ul li span{
+        font-size: 9px;
+        line-height: 1.9;
+    }
+}   
